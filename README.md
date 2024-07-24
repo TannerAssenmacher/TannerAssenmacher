@@ -1,5 +1,4 @@
-## Welcome!
-Hello, I am a passionate developer and student with experience in many programming languages and projects. Below is an outline to my academic organizations. To view my related projects or organizations you may request access by contacting me directly.  
+## Welcome! Hello, I am a passionate developer and student with experience in many programming languages and projects. Below is an outline to my academic organizations. To view my related projects or organizations you may request access by contacting me directly.  
 
 https://github.com/Tanner-Assenmacher-MCCC  
 https://github.com/Tanner-Assenmacher-UCF  
