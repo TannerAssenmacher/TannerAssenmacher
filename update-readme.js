@@ -6,6 +6,7 @@ const headers = {
   'Authorization': `token ${token}`,
   'Accept': 'application/vnd.github.v3+json'
 };
+
 const getRepoCount = async (org) => {
   let page = 1;
   let repoCount = 0;
@@ -20,6 +21,7 @@ const getRepoCount = async (org) => {
   }
   return repoCount;
 };
+
 (async () => {
   let orgRepoCounts = {};
   for (const org of orgs) {
@@ -28,14 +30,16 @@ const getRepoCount = async (org) => {
   }
   
   let readme = fs.readFileSync('README.md', 'utf8');
-  console.log('Readme before update:', readme); // Log before update
+  console.log('Readme before update:\n', readme); // Log before update
 
   const updateReadmeSection = (readme, startMarker, endMarker, countLine) => {
     const newCountSection = `${startMarker}\n${countLine}\n${endMarker}`;
-    const regex = new RegExp(`${startMarker}[\s\S]*${endMarker}`);
+    const regex = new RegExp(`${startMarker}[\\s\\S]*${endMarker}`, 'g');
     if (regex.test(readme)) {
+      console.log(`Updating section with:\n${newCountSection}`); // Log new section content
       return readme.replace(regex, newCountSection);
     } else {
+      console.log(`Adding new section:\n${newCountSection}`); // Log new section content
       return readme;
     }
   };
@@ -43,7 +47,7 @@ const getRepoCount = async (org) => {
   readme = updateReadmeSection(readme, '<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-START -->', '<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-END -->', `Total Repositories (Tanner Assenmacher MCCC): ${orgRepoCounts['Tanner-Assenmacher-MCCC']}`);
   readme = updateReadmeSection(readme, '<!-- TANNER-ASSENMACHER-UCF-REPO-COUNT-START -->', '<!-- TANNER-ASSENMACHER-UCF-REPO-COUNT-END -->', `Total Repositories (Tanner Assenmacher UCF): ${orgRepoCounts['Tanner-Assenmacher-UCF']}`);
 
-  console.log('Readme after update:', readme); // Log after update
+  console.log('Readme after update:\n', readme); // Log after update
 
   fs.writeFileSync('README.md', readme);
 })();
