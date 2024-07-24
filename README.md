@@ -8,9 +8,9 @@ Below is an outline to my academic organizations.
 
 Tanner-Assenmacher-MCCC
 
-CIS150_ASCIIFinder
-🔴 C++
-This program finds the ASCII value of a given character.
+CIS150_ASCIIFinder  
+🔴 C++  
+This program finds the ASCII value of a given character.  
 
 CIS150_BasicMath
 🔴 C++
