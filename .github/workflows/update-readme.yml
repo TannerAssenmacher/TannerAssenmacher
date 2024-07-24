@@ -21,49 +21,39 @@ jobs:
     - name: Install dependencies
       run: npm install axios
 
-    - name: Update README with repository count
+    - name: Update README with repository counts
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
-        echo "const axios = require('axios');
+        const axios = require('axios');
         const fs = require('fs');
         const username = 'TannerAssenmacher';
         const orgs = ['Tanner-Assenmacher-MCCC', 'Tanner-Assenmacher-UCF'];
         const token = process.env.GH_TOKEN;
         const headers = {
-          'Authorization': \`token \${token}\`,
+          'Authorization': `token ${token}`,
           'Accept': 'application/vnd.github.v3+json'
         };
         const getRepoCount = async (org) => {
-          const response = await axios.get(\`https://api.github.com/orgs/\${org}/repos\`, { headers });
+          const response = await axios.get(`https://api.github.com/orgs/${org}/repos`, { headers });
           return response.data.length;
         };
         (async () => {
-          let totalRepos = 0;
-          for (const org of orgs) {
-            totalRepos += await getRepoCount(org);
-          }
-          const personalReposResponse = await axios.get(\`https://api.github.com/users/\${username}/repos\`, { headers });
-          totalRepos += personalReposResponse.data.length;
           let readme = fs.readFileSync('README.md', 'utf8');
-          const repoCountLine = 'Total Repositories:';
-          const newRepoCountLine = \`\${repoCountLine} \${totalRepos}\`;
-          if (readme.includes(repoCountLine)) {
-            const regex = new RegExp(\`\${repoCountLine} \\d+\`);
-            readme = readme.replace(regex, newRepoCountLine);
-          } else {
-            readme += \`\n\n\${newRepoCountLine}\`;
-          }
-          fs.writeFileSync('README.md', readme);
-        })();" > update-readme.js
-        node update-readme.js
+          let updatedReadme = readme;
 
-    - name: Commit and push changes
-      env:
-        GH_PAT: ${{ secrets.GH_PAT }}
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add README.md
-        git commit -m 'Update README with repository count'
-        git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/TannerAssenmacher/TannerAssenmacher.git HEAD:main
+          for (const org of orgs) {
+            const repoCount = await getRepoCount(org);
+            const repoCountLine = `${org} Repositories:`;
+            const newRepoCountLine = `${repoCountLine} ${repoCount}`;
+            
+            if (readme.includes(repoCountLine)) {
+              const regex = new RegExp(`${repoCountLine} \\d+`);
+              updatedReadme = updatedReadme.replace(regex, newRepoCountLine);
+            } else {
+              updatedReadme += `\n\n${newRepoCountLine}`;
+            }
+          }
+          
+          fs.writeFileSync('README.md', updatedReadme);
+        })();
