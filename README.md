@@ -5,11 +5,12 @@ https://github.com/Tanner-Assenmacher-MCCC
 https://github.com/Tanner-Assenmacher-UCF
 
 Below is an outline to my academic organizations. 
+==========================================================================  
+Tanner-Assenmacher-MCCC  
+==========================================================================  
 
-Tanner-Assenmacher-MCCC
-
-CIS150_ASCIIFinder  
-🔴 C++  
+CIS150_ASCIIFinder
+🔴 C++
 This program finds the ASCII value of a given character.  
 
 CIS150_BasicMath
