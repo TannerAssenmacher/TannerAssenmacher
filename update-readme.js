@@ -8,16 +8,39 @@ const headers = {
   'Accept': 'application/vnd.github.v3+json'
 };
 const getRepoCount = async (org) => {
-  const response = await axios.get(`https://api.github.com/orgs/${org}/repos`, { headers });
-  return response.data.length;
+  let page = 1;
+  let repoCount = 0;
+  let hasMoreRepos = true;
+  while (hasMoreRepos) {
+    const response = await axios.get(`https://api.github.com/orgs/${org}/repos?page=${page}&per_page=100`, { headers });
+    repoCount += response.data.length;
+    if (response.data.length < 100) {
+      hasMoreRepos = false;
+    }
+    page++;
+  }
+  return repoCount;
 };
 (async () => {
   let orgRepoCounts = {};
   for (const org of orgs) {
     orgRepoCounts[org] = await getRepoCount(org);
   }
-  const personalReposResponse = await axios.get(`https://api.github.com/users/${username}/repos`, { headers });
-  const personalRepoCount = personalReposResponse.data.length;
+  const getPersonalRepoCount = async () => {
+    let page = 1;
+    let repoCount = 0;
+    let hasMoreRepos = true;
+    while (hasMoreRepos) {
+      const response = await axios.get(`https://api.github.com/users/${username}/repos?page=${page}&per_page=100`, { headers });
+      repoCount += response.data.length;
+      if (response.data.length < 100) {
+        hasMoreRepos = false;
+      }
+      page++;
+    }
+    return repoCount;
+  };
+  const personalRepoCount = await getPersonalRepoCount();
   let readme = fs.readFileSync('README.md', 'utf8');
   const updateReadme = (readme, label, count) => {
     const countLine = `Total Repositories (${label}):`;
