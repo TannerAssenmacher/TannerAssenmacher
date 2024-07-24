@@ -30,7 +30,7 @@ jobs:
         const token = process.env.GH_TOKEN;
         const headers = {
           'Authorization': \`token \${token}\`,
-          'Accept': 'application/vnd.github.v3+json'
+          'Accept': 'application/vnd.github.v3+json\`
         };
         const getRepoCount = async (org) => {
           let page = 1;
@@ -67,7 +67,7 @@ jobs:
           };
           const personalRepoCount = await getPersonalRepoCount();
           let readme = fs.readFileSync('README.md', 'utf8');
-          
+
           const updateReadmeSection = (readme, startMarker, endMarker, countLine) => {
             const newCountSection = \`\${startMarker}\n\${countLine}\n\${endMarker}\`;
             const regex = new RegExp(\`\${startMarker}[\\s\\S]*\${endMarker}\`);
@@ -77,11 +77,11 @@ jobs:
               return readme;
             }
           };
-          
+
           readme = updateReadmeSection(readme, '<!-- PERSONAL-REPO-COUNT-START -->', '<!-- PERSONAL-REPO-COUNT-END -->', \`Total Repositories (Personal): \${personalRepoCount}\`);
           readme = updateReadmeSection(readme, '<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-START -->', '<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-END -->', \`Total Repositories (Tanner Assenmacher MCCC): \${orgRepoCounts['Tanner-Assenmacher-MCCC']}\`);
           readme = updateReadmeSection(readme, '<!-- TANNER-ASSENMACHER-UCF-REPO-COUNT-START -->', '<!-- TANNER-ASSENMACHER-UCF-REPO-COUNT-END -->', \`Total Repositories (Tanner Assenmacher UCF): \${orgRepoCounts['Tanner-Assenmacher-UCF']}\`);
-          
+
           fs.writeFileSync('README.md', readme);
         })();" > update-readme.js
 
