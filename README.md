@@ -27,3 +27,9 @@ Here are some ideas to get you started:
 
 
 Total Repositories: 62
+
+Total Repositories (Personal): 2
+
+Total Repositories (Tanner Assenmacher MCCC): 30
+
+Total Repositories (Tanner Assenmacher UCF): 30

@@ -12,20 +12,28 @@ const getRepoCount = async (org) => {
   return response.data.length;
 };
 (async () => {
-  let totalRepos = 0;
+  let orgRepoCounts = {};
   for (const org of orgs) {
-    totalRepos += await getRepoCount(org);
+    orgRepoCounts[org] = await getRepoCount(org);
   }
   const personalReposResponse = await axios.get(`https://api.github.com/users/${username}/repos`, { headers });
-  totalRepos += personalReposResponse.data.length;
+  const personalRepoCount = personalReposResponse.data.length;
   let readme = fs.readFileSync('README.md', 'utf8');
-  const repoCountLine = 'Total Repositories:';
-  const newRepoCountLine = `${repoCountLine} ${totalRepos}`;
-  if (readme.includes(repoCountLine)) {
-    const regex = new RegExp(`${repoCountLine} \d+`);
-    readme = readme.replace(regex, newRepoCountLine);
-  } else {
-    readme += `\n\n${newRepoCountLine}`;
+  const updateReadme = (readme, label, count) => {
+    const countLine = `Total Repositories (${label}):`;
+    const newCountLine = `${countLine} ${count}`;
+    if (readme.includes(countLine)) {
+      const regex = new RegExp(`${countLine} \d+`);
+      readme = readme.replace(regex, newCountLine);
+    } else {
+      readme += `\n\n${newCountLine}`;
+    }
+    return readme;
+  };
+  readme = updateReadme(readme, 'Personal', personalRepoCount);
+  for (const org in orgRepoCounts) {
+    const orgLabel = org.replace(/-/g, ' '); // Replace dashes with spaces for better readability
+    readme = updateReadme(readme, orgLabel, orgRepoCounts[org]);
   }
   fs.writeFileSync('README.md', readme);
 })();
