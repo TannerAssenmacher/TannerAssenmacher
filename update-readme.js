@@ -42,20 +42,20 @@ const getRepoCount = async (org) => {
   };
   const personalRepoCount = await getPersonalRepoCount();
   let readme = fs.readFileSync('README.md', 'utf8');
-  const updateReadme = (readme, startMarker, endMarker, countLine) => {
+  
+  const updateReadmeSection = (readme, startMarker, endMarker, countLine) => {
     const newCountSection = `${startMarker}\n${countLine}\n${endMarker}`;
     const regex = new RegExp(`${startMarker}[\s\S]*${endMarker}`);
     if (regex.test(readme)) {
-      readme = readme.replace(regex, newCountSection);
+      return readme.replace(regex, newCountSection);
     } else {
-      readme += `\n\n${newCountSection}`;
+      return readme;
     }
-    return readme;
   };
-  readme = updateReadme(readme, '<!-- PERSONAL-REPO-COUNT-START -->', '<!-- PERSONAL-REPO-COUNT-END -->', `Total Repositories (Personal): ${personalRepoCount}`);
-  for (const org in orgRepoCounts) {
-    const orgLabel = org.replace(/-/g, ' '); // Replace dashes with spaces for better readability
-    readme = updateReadme(readme, `<!-- ${orgLabel.toUpperCase()}-REPO-COUNT-START -->`, `<!-- ${orgLabel.toUpperCase()}-REPO-COUNT-END -->`, `Total Repositories (${orgLabel}): ${orgRepoCounts[org]}`);
-  }
+  
+  readme = updateReadmeSection(readme, '<!-- PERSONAL-REPO-COUNT-START -->', '<!-- PERSONAL-REPO-COUNT-END -->', `Total Repositories (Personal): ${personalRepoCount}`);
+  readme = updateReadmeSection(readme, '<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-START -->', '<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-END -->', `Total Repositories (Tanner Assenmacher MCCC): ${orgRepoCounts['Tanner-Assenmacher-MCCC']}`);
+  readme = updateReadmeSection(readme, '<!-- TANNER-ASSENMACHER-UCF-REPO-COUNT-START -->', '<!-- TANNER-ASSENMACHER-UCF-REPO-COUNT-END -->', `Total Repositories (Tanner Assenmacher UCF): ${orgRepoCounts['Tanner-Assenmacher-UCF']}`);
+  
   fs.writeFileSync('README.md', readme);
 })();
