@@ -41,3 +41,16 @@ Total Repositories (Personal): 2
 Total Repositories (Tanner Assenmacher MCCC): 42
 
 Total Repositories (Tanner Assenmacher UCF): 35
+
+
+<!-- PERSONAL-REPO-COUNT-START -->
+Total Repositories (Personal): 2
+<!-- PERSONAL-REPO-COUNT-END -->
+
+<!-- TANNER ASSENMACHER MCCC-REPO-COUNT-START -->
+Total Repositories (Tanner Assenmacher MCCC): 42
+<!-- TANNER ASSENMACHER MCCC-REPO-COUNT-END -->
+
+<!-- TANNER ASSENMACHER UCF-REPO-COUNT-START -->
+Total Repositories (Tanner Assenmacher UCF): 35
+<!-- TANNER ASSENMACHER UCF-REPO-COUNT-END -->
