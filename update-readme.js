@@ -6,6 +6,7 @@ const headers = {
   'Authorization': `token ${token}`,
   'Accept': 'application/vnd.github.v3+json'
 };
+
 const getRepoCount = async (org) => {
   let page = 1;
   let repoCount = 0;
@@ -20,6 +21,7 @@ const getRepoCount = async (org) => {
   }
   return repoCount;
 };
+
 (async () => {
   let orgRepoCounts = {};
   for (const org of orgs) {
@@ -32,7 +34,7 @@ const getRepoCount = async (org) => {
 
   const updateReadmeSection = (readme, startMarker, endMarker, countLine) => {
     const newCountSection = `${startMarker}\n${countLine}\n${endMarker}`;
-    const regex = new RegExp(`${startMarker}[\s\S]*${endMarker}`);
+    const regex = new RegExp(`${startMarker}[\\s\\S]*${endMarker}`, 'g');
     if (regex.test(readme)) {
       return readme.replace(regex, newCountSection);
     } else {
