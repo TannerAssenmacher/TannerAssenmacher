@@ -8,7 +8,15 @@ Below is an outline to my academic organizations.
 
 Tanner-Assenmacher-MCCC
 
+<!-- TANNER ASSENMACHER MCCC-REPO-COUNT-START -->
+<!-- TANNER ASSENMACHER MCCC-REPO-COUNT-END -->
+
 Tanner-Assenmacher-UCF
+
+<!-- TANNER ASSENMACHER UCF-REPO-COUNT-START -->
+<!-- TANNER ASSENMACHER UCF-REPO-COUNT-END -->
+
+
 
 <!--
 **TannerAssenmacher/TannerAssenmacher** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
