@@ -1,8 +1,8 @@
 ## Welcome! 
 Hello, I am a passionate developer and student with experience in many programming languages and projects. Below is an outline to my academic organizations. To view my related projects or organizations you may request access by contacting me directly.  
 
-⭐- Notable
-🤝- Collaboration
+⭐- Notable  
+🤝- Collaboration  
 
 https://github.com/Tanner-Assenmacher-MCCC  
 https://github.com/Tanner-Assenmacher-UCF  
@@ -191,7 +191,7 @@ CIS268_nBitBinary
 🔴 C++
 This program prints all binary representations given n number of bits.
 
-CIS268_PongGame
+⭐ CIS268_PongGame
 🔴 C++
 This program is a circuit that represents a simple pong game.
 
@@ -218,7 +218,7 @@ This program utilizes the hill cipher to encrypt letters.
 🟠 Java
 This program uses Java generics to allow a box data structure to hold any object.
 
-⭐ COP3330_Bonfire
+⭐⭐ COP3330_Bonfire
 🟠 Java
 This program prints a ribbon of a size given parameters.
 
@@ -330,7 +330,7 @@ This program implements dynamic programming and sequence alignment to spell chec
 🟤 Dart
 This project is a gaming mobile application based on the web version.
 
-🤝 ⭐⭐ COP4331_GameOnWeb
+🤝 ⭐⭐⭐ COP4331_GameOnWeb
 ⚫️ React
 This project is a gaming web application using the MERN stack.
 
