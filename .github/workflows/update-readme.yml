@@ -35,43 +35,10 @@ jobs:
           'Accept': 'application/vnd.github.v3+json'
         };
         const getRepoCount = async (org) => {
-          const response = await axios.get(\`https://api.github.com/orgs/\${org}/repos\`, { headers });
-          return response.data.length;
-        };
-        (async () => {
-          let orgRepoCounts = {};
-          for (const org of orgs) {
-            orgRepoCounts[org] = await getRepoCount(org);
-          }
-          const personalReposResponse = await axios.get(\`https://api.github.com/users/\${username}/repos\`, { headers });
-          const personalRepoCount = personalReposResponse.data.length;
-          let readme = fs.readFileSync('README.md', 'utf8');
-          const updateReadme = (readme, label, count) => {
-            const countLine = \`Total Repositories (\${label}):\`;
-            const newCountLine = \`\${countLine} \${count}\`;
-            if (readme.includes(countLine)) {
-              const regex = new RegExp(\`\${countLine} \\d+\`);
-              readme = readme.replace(regex, newCountLine);
-            } else {
-              readme += \`\n\n\${newCountLine}\`;
-            }
-            return readme;
-          };
-          readme = updateReadme(readme, 'Personal', personalRepoCount);
-          for (const org in orgRepoCounts) {
-            const orgLabel = org.replace(/-/g, ' '); // Replace dashes with spaces for better readability
-            readme = updateReadme(readme, orgLabel, orgRepoCounts[org]);
-          }
-          fs.writeFileSync('README.md', readme);
-        })();" > update-readme.js
-        node update-readme.js
-
-    - name: Commit and push changes
-      env:
-        GH_PAT: ${{ secrets.GH_PAT }}
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add README.md update-readme.js
-        git commit -m 'Update README with repository count'
-        git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/TannerAssenmacher/TannerAssenmacher.git HEAD:main
+          let page = 1;
+          let repoCount = 0;
+          let hasMoreRepos = true;
+          while (hasMoreRepos) {
+            const response = await axios.get(\`https://api.github.com/orgs/\${org}/repos?page=\${page}&per_page=100\`, { headers });
+            repoCount += response.data.length;
+            if (
