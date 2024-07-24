@@ -8,15 +8,13 @@ Below is an outline to my academic organizations.
 
 Tanner-Assenmacher-MCCC
 
-<!-- TANNER ASSENMACHER MCCC-REPO-COUNT-START -->
-
-<!-- TANNER ASSENMACHER MCCC-REPO-COUNT-END -->
+<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-START -->
+<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-END -->
 
 Tanner-Assenmacher-UCF
 
-<!-- TANNER ASSENMACHER UCF-REPO-COUNT-START -->
-
-<!-- TANNER ASSENMACHER UCF-REPO-COUNT-END -->
+<!-- TANNER-ASSENMACHER-UCF-REPO-COUNT-START -->
+<!-- TANNER-ASSENMACHER-UCF-REPO-COUNT-END -->
 
 <!--
 **TannerAssenmacher/TannerAssenmacher** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -32,16 +30,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-
-<!-- PERSONAL-REPO-COUNT-START -->
-Total Repositories (Personal): 2
-<!-- PERSONAL-REPO-COUNT-END -->
-
-<!-- TANNER ASSENMACHER MCCC-REPO-COUNT-START -->
-Total Repositories (Tanner Assenmacher MCCC): 42
-<!-- TANNER ASSENMACHER MCCC-REPO-COUNT-END -->
-
-<!-- TANNER ASSENMACHER UCF-REPO-COUNT-START -->
-Total Repositories (Tanner Assenmacher UCF): 35
-<!-- TANNER ASSENMACHER UCF-REPO-COUNT-END -->
