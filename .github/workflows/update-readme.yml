@@ -30,7 +30,7 @@ jobs:
         const token = process.env.GH_TOKEN;
         const headers = {
           'Authorization': \`token \${token}\`,
-          'Accept': 'application/vnd.github.v3+json\`
+          'Accept': 'application/vnd.github.v3+json'
         };
         const getRepoCount = async (org) => {
           let page = 1;
