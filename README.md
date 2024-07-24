@@ -1,12 +1,11 @@
-## Hi there 👋
-I am a passionate developer and student with experience in many programming languages and projects. 
-To find my academic related projects you may request access to my organizations:
-https://github.com/Tanner-Assenmacher-MCCC
-https://github.com/Tanner-Assenmacher-UCF
+## 
+I am a passionate developer and student with experience in many programming languages and projects. Below is an outline to my academic organizations. To view my related projects or organizations you may request access by contacting me directly. 
 
-Below is an outline to my academic organizations. 
+https://github.com/Tanner-Assenmacher-MCCC  
+https://github.com/Tanner-Assenmacher-UCF  
+
 ==========================================================================  
-Tanner-Assenmacher-MCCC  
+Monroe County Community College  
 ==========================================================================  
 
 CIS150_ASCIIFinder
@@ -177,13 +176,8 @@ CIS268_SimonSays
 🟢 C#
 This program is a circuit that represents the game Simon Says.
 
-
-
-<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-START -->
-<!-- TANNER-ASSENMACHER-MCCC-REPO-COUNT-END -->
-
 ==========================================================================  
-Tanner-Assenmacher-UCF  
+University of Central Florida  
 ==========================================================================  
 
 CDA3103_TMArch
