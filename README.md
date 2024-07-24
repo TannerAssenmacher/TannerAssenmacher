@@ -1,9 +1,10 @@
-##
+## Welcome!
 Hello, I am a passionate developer and student with experience in many programming languages and projects. Below is an outline to my academic organizations. To view my related projects or organizations you may request access by contacting me directly.  
 
 https://github.com/Tanner-Assenmacher-MCCC  
 https://github.com/Tanner-Assenmacher-UCF  
 
+========================================================================== 
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
@@ -20,6 +21,7 @@ https://github.com/Tanner-Assenmacher-UCF
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xcode/xcode-original.svg" />
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" />
 <br />
+========================================================================== 
 
 Monroe County Community College  
 ==========================================================================  
