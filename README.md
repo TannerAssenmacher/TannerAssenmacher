@@ -353,13 +353,13 @@ This project is a gaming mobile application based on the web version.
 ⚫️ React
 This project is a gaming web application using the MERN stack.  
 
-</br>
-## Thanks for stopping by!
-
 COP4331_MERN
 ⚫️ React
 This project is a basic react application using the MERN stack.
 
 🤝 ⭐ COP4331_WeConnect
 🟡 JavaScript
-This project is a user-contact web application using the LAMP stack.
+This project is a user-contact web application using the LAMP stack.  
+
+</br>
+## Thanks for stopping by!  
