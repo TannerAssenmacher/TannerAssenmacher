@@ -24,12 +24,21 @@ https://github.com/Tanner-Assenmacher-UCF
 <br />
 
 -----
+Key  
 ⭐- Notable  
 🤝- Collaboration  
 
 Monroe County Community College  
 ==========================================================================  
-
+CIS 150 - Computer Science 1
+CIS 153 - Desktop App Development
+CIS 167 - Discrete Structures
+CIS 183 - Mobile App Development
+CIS 212 - Full Stack Development
+CIS 250 - Computer Science 2
+CIS 267 - Beginning Game Programming
+CIS 268 - Assembly Language & Computer Architecture
+==========================================================================  
 CIS150_ASCIIFinder
 🔴 C++
 This program finds the ASCII value of a given character.  
