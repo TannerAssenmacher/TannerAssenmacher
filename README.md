@@ -222,143 +222,143 @@ This program is a circuit that represents the game Simon Says.
 <br/>
 
 CDA3103_TMArch
-⚪️ C
+| ⚪️ C |
 This program simulates a variant of the Tiny Machine Architecture.
 
 ⭐ CIS3360_BitChecksums
-🟠 Java
+| 🟠 Java |
 This program calculates the checksum (8, 16, or 32) for text in a file.
 
 ⭐ CIS3360_HillCipher
-🟠 Java
+| 🟠 Java |
 This program utilizes the hill cipher to encrypt letters.
 
 ⭐ COP3330_BlackBoxOfChaos
-🟠 Java
+| 🟠 Java |
 This program uses Java generics to allow a box data structure to hold any object.
 
 ⭐⭐ COP3330_Bonfire
-🟠 Java
+| 🟠 Java |
 This program prints a ribbon of a size given parameters.
 
 ⭐ COP3330_Garland
-🟠 Java
+| 🟠 Java |
 This program utilizes linked lists to represent strings.
 
 ⭐ COP3330_LyricalDecomposition
-🟠 Java
+| 🟠 Java |
 This program utilizes Java syntax/methods to print song lyrics without arguments.
 
 ⭐⭐ COP3330_PotionMaster
-🟠 Java
+| 🟠 Java |
 This program utilizes lists, sets, and maps to create potions with ingredients.
 
 ⭐ COP3330_Strands
-🟠 Java
+| 🟠 Java |
 This program manipulates and prints stings in different formats.
 
 🤝 ⭐⭐ COP3402_CodeGeneration
-⚪️ C
+| ⚪️ C |
 This program implements a code generator for a compiler.
 
 🤝 ⭐⭐ COP3402_LexicalAnalyzer
-⚪️ C
+| ⚪️ C |
 This program implements a lexical analyzer for the PL/0 language.
 
 🤝 ⭐⭐ COP3402_Parser
-⚪️ C
+| ⚪️ C |
 This program implements a parser for the context-free syntax and a declaration checker for the PL/0 language.
 
 🤝 ⭐⭐ COP3402_VM
-⚪️ C
+| ⚪️ C |
 This program implements the Simplified RISC Machine (SRM), a virtual machine based on the MIPS processor.
 
 COP3502_BubbleSort
-⚪️ C
+| ⚪️ C |
 This program computes the number of swaps needed for each index in the array.
 
 ⭐ COP3502_CountWords
-⚪️ C
+| ⚪️ C |
 This program uses a trie to count the number of occurrences of a word if it exists in a dictionary.
 
 COP3502_CreateEmployees
-⚪️ C
+| ⚪️ C |
 This program creates a list of employees from data using dynamic memory allocation.
 
 ⭐ COP3502_HashRecords
-⚪️ C
+| ⚪️ C |
 This program utilizes a hash table to store record structures.
 
 COP3502_HeapMerge
-⚪️ C
+| ⚪️ C |
 This program uses heap sort and merge sort to order data from a file.
 
 COP3502_HolidayList
-⚪️ C
+| ⚪️ C |
 This program implements a linked list for a list of presents.
 
 COP3502_MarkEven
-⚪️ C
+| ⚪️ C |
 This program adds a negative node to the linked list for every even node.
 
 COP3502_MergeLists
-⚪️ C
+| ⚪️ C |
 This program merges two lists while memory allocation is tracked.
 
 ⭐ COP3502_Palindrome
-⚪️ C
+| ⚪️ C |
 This program determines if a given string is a palindrome using a stack.
 
 ⭐ COP3502_RecursiveSearch
-⚪️ C
+| ⚪️ C |
 This program utilizes recursion to find a value index in an array.
 
 ⭐ COP3502_SortingAlgorithms
-⚪️ C
+| ⚪️ C |
 This program compares memory allocation between selection, insertion, bubble, and merge sorts.
 
 COP3502_StackAndQueue
-⚪️ C
+| ⚪️ C |
 This program moves data between stack and queue data structures.
 
 COP3502_StringLists
-⚪️ C
+| ⚪️ C |
 This program reads strings from a file and stores them each in a linked list.
 
 ⭐ COP3503_BuildingRailroads
-🟠 Java
+| 🟠 Java |
 This program implements a graph algorithm to sort costs of a railroad system.
 
 ⭐ COP3503_GreedyChildren
-🟠 Java
+| 🟠 Java |
 This program implements a greedy algorithm to hand out Halloween candy.
 
 COP3503_KnightGame
-🟠 Java
+| 🟠 Java |
 This program is a simple strategy game with two players that guarantees a player to win.
 
 ⭐⭐ COP3503_MagicMaze
-🟠 Java
+| 🟠 Java |
 This program uses backtracking to solve a maze with teleport pads.
 
 ⭐⭐ COP3503_SpellChecker
-🟠 Java
+| 🟠 Java |
 This program implements dynamic programming and sequence alignment to spell check two strings.
 
 🤝 ⭐⭐⭐ COP4331_GameOnMobile
-🟤 Dart
+| 🟤 Dart |
 This project is a gaming mobile application based on the web version.
 
 🤝 ⭐⭐⭐ COP4331_GameOnWeb
-⚫️ React
+| ⚫️ React |
 This project is a gaming web application using the MERN stack.  
 
 COP4331_MERN
-⚫️ React
+| ⚫️ React |
 This project is a basic react application using the MERN stack.
 
 🤝 ⭐ COP4331_WeConnect
-🟡 JavaScript
+| 🟡 JavaScript |
 This project is a user-contact web application using the LAMP stack.  
 
 </br>
