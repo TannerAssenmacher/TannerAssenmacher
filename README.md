@@ -210,6 +210,7 @@ This program is a circuit that represents the game Simon Says.
 
 <br/>
 # University of Central Florida  
+
 - CDA 3103 - Computer Logic and Organization  
 - CIS 3360 - Security in Computing  
 - COP 3330 - Object Oriented Programming  
