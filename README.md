@@ -41,39 +41,39 @@ https://github.com/Tanner-Assenmacher-UCF
 <br/>
 
 CIS150_ASCIIFinder
-🔴 C++
+|🔴 C++ |
 This program finds the ASCII value of a given character.  
 
 CIS150_BasicMath
-🔴 C++
+|🔴 C++ |
 This program will add, multiply, divide, or subract two numbers, or find the absolute value of any number.
 
 CIS150_CourseCheck_Midterm
-🔴 C++
+|🔴 C++ |
 This program checks if the user is in college courses and executes operations depending on the condition.
 
 CIS150_FindChange
-🔴 C++
+|🔴 C++ |
 This program finds the smallest amount of bills that can be make from a given amount of money.
 
 CIS150_FindChar
-🔴 C++
+|🔴 C++ |
 This program will find the position of any character of any city the user enters.
 
 CIS150_FirstProgram
-🔴 C++
+|🔴 C++ |
 This is a simple "Hello World" program.
 
 ⭐ CIS150_Hangman
-🔴 C++
+|🔴 C++ |
 This program is a simple hangman made without loops.
 
 CIS150_HangmanLoop
-🔴 C++
+|🔴 C++ |
 This program is a simple hangman made with loops.
 
 CIS150_NameAgeTF
-🔴 C++
+|🔴 C++ |
 This program takes in a name and age and prints out true or false statments based on conditional checks.
 
 CIS150_PrimeNumbers
