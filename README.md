@@ -29,7 +29,7 @@ Key
 🤝- Collaboration  
 
 Monroe County Community College  
-____ 
+**** 
 - CIS 150 - Computer Science 1  
 - CIS 153 - Desktop App Development  
 - CIS 167 - Discrete Structures  
