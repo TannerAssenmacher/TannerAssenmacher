@@ -24,11 +24,11 @@ https://github.com/Tanner-Assenmacher-UCF
 <br />
 
 -----
-#####Key  
+##### Key  
 ⭐- Notable  
 🤝- Collaboration  
 
-#Monroe County Community College  
+# Monroe County Community College  
 **** 
 - CIS 150 - Computer Science 1  
 - CIS 153 - Desktop App Development  
