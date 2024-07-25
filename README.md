@@ -363,4 +363,4 @@ This project is a user-contact web application using the LAMP stack.
 
 </br>
 
-## Thanks for stopping by!  
+### Thanks for stopping by!  
