@@ -38,7 +38,6 @@ https://github.com/Tanner-Assenmacher-UCF
 - CIS 250 - Computer Science 2  
 - CIS 267 - Beginning Game Programming  
 - CIS 268 - Assembly Language & Computer Architecture  
-
 <br/>
 
 CIS150_ASCIIFinder
@@ -209,8 +208,16 @@ This program is a circuit that represents a simple pong game.
 🟢 C#
 This program is a circuit that represents the game Simon Says.
 
-University of Central Florida  
-==========================================================================  
+<br/>
+# University of Central Florida  
+- CDA 3103 - Computer Logic and Organization  
+- CIS 3360 - Security in Computing  
+- COP 3330 - Object Oriented Programming  
+- COP 3402 - Systems Software  
+- COP 3502 - Computer Science 1  
+- COP 3503 - Computer Science 2  
+- COP 4331 - Processes of Object Oriented Software Development  
+<br/>
 
 CDA3103_TMArch
 ⚪️ C
