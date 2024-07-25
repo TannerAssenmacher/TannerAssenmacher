@@ -1,4 +1,4 @@
-## Welcome! 
+# Welcome! 
 Hello, I am a passionate developer and student with experience in many programming languages and projects. Below is an outline to my academic organizations. To view my related projects or organizations you may request access by contacting me directly.  
 
 https://github.com/Tanner-Assenmacher-MCCC  
@@ -24,11 +24,11 @@ https://github.com/Tanner-Assenmacher-UCF
 <br />
 
 -----
-Key  
+#####Key  
 ⭐- Notable  
 🤝- Collaboration  
 
-Monroe County Community College  
+#Monroe County Community College  
 **** 
 - CIS 150 - Computer Science 1  
 - CIS 153 - Desktop App Development  
@@ -38,7 +38,7 @@ Monroe County Community College
 - CIS 250 - Computer Science 2  
 - CIS 267 - Beginning Game Programming  
 - CIS 268 - Assembly Language & Computer Architecture  
-____
+=====
 
 CIS150_ASCIIFinder
 🔴 C++
