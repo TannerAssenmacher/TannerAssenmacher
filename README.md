@@ -1,5 +1,5 @@
 # Welcome! 
-Hello, I am a passionate developer and student with experience in many programming languages and projects. Below is an outline to my academic organizations and repositories. To view my related projects you may request access by contacting me directly.  
+Hello, I am a passionate developer and student with experience in several programming languages and projects. Below is an outline to my academic organizations and repositories. To view my related projects you may request access by contacting me directly.  
 
 https://github.com/Tanner-Assenmacher-MCCC  
 https://github.com/Tanner-Assenmacher-UCF  
@@ -351,7 +351,10 @@ This project is a gaming mobile application based on the web version.
 
 🤝 ⭐⭐⭐ COP4331_GameOnWeb
 ⚫️ React
-This project is a gaming web application using the MERN stack.
+This project is a gaming web application using the MERN stack.  
+
+</br>
+## Thanks for stopping by!
 
 COP4331_MERN
 ⚫️ React
