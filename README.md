@@ -206,9 +206,8 @@ This program is a circuit that represents a simple pong game.
 
 ⭐ CIS268_SimonSays
 🟢 C#
-This program is a circuit that represents the game Simon Says.
+This program is a circuit that represents the game Simon Says.  
 
-<br/>
 # University of Central Florida  
 
 - CDA 3103 - Computer Logic and Organization  
