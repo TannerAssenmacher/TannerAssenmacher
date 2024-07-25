@@ -1,5 +1,5 @@
 # Welcome! 
-Hello, I am a passionate developer and student with experience in many programming languages and projects. Below is an outline to my academic organizations. To view my related projects or organizations you may request access by contacting me directly.  
+Hello, I am a passionate developer and student with experience in many programming languages and projects. Below is an outline to my academic organizations and repositories. To view my related projects you may request access by contacting me directly.  
 
 https://github.com/Tanner-Assenmacher-MCCC  
 https://github.com/Tanner-Assenmacher-UCF  
@@ -207,6 +207,8 @@ This program is a circuit that represents a simple pong game.
 ⭐ CIS268_SimonSays
 🟢 C#
 This program is a circuit that represents the game Simon Says.  
+
+</br>
 
 # University of Central Florida  
 
