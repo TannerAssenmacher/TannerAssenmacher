@@ -218,7 +218,8 @@ This program is a circuit that represents the game Simon Says.
 - COP 3402 - Systems Software  
 - COP 3502 - Computer Science 1  
 - COP 3503 - Computer Science 2  
-- COP 4331 - Processes of Object Oriented Software Development  
+- COP 4331 - Processes of Object Oriented Software Development
+- COT 4210 - Discrete Structures 2 
 <br/>
 
 CDA3103_TMArch
@@ -360,6 +361,26 @@ This project is a basic react application using the MERN stack.
 🤝 ⭐ COP4331_WeConnect
 | 🟡 JavaScript |
 This project is a user-contact web application using the LAMP stack.  
+
+COT4210_DFASimulation
+| 🟠 Java |
+This program determines if given strings are accepted by a given DFA.
+
+⭐ COT4210_DFAMinimization
+| 🟠 Java |
+This program uses a disjoint set, given a DFA, to produce a DFA with minimal states.
+
+COT4210_ChomskyNormalForm
+| 🟠 Java |
+This program determines if given strings are in a given grammar in CNF.
+
+COT4210_TuringMachineSimulator
+| 🟠 Java |
+This program simulates a given string on a given TM description and determines if the TM accepted, rejected, or did not halt with the input.
+
+COT4210_DFACount
+| 🟠 Java |
+This program finds the number of strings accepted of a given length by a given DFA.
 
 </br>
 
