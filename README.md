@@ -219,7 +219,9 @@ This program is a circuit that represents the game Simon Says.
 - COP 3502 - Computer Science 1  
 - COP 3503 - Computer Science 2  
 - COP 4331 - Processes of Object Oriented Software Development
-- COT 4210 - Discrete Structures 2 
+- COT 4210 - Discrete Structures 2
+- COP 4020 - Programming Languages
+- COP 4600 - Operating Systems
 <br/>
 
 CDA3103_TMArch
@@ -381,6 +383,70 @@ This program simulates a given string on a given TM description and determines i
 COT4210_DFACount
 | 🟠 Java |
 This program finds the number of strings accepted of a given length by a given DFA.
+
+COP4020_ListComprehensions
+| 🔘 Haskell |
+This program creates simple functions using list comprehensions in haskell.
+
+COP4020_TypeClasses
+| 🔘 Haskell |
+This program uses recursion and type classes to solve simple problems.
+
+COP4020_HigherOrderFunctions
+| 🔘 Haskell |
+This program uses map and filter to modify data in lists.
+
+⭐ COP4020_Recursion
+| 🔘 Haskell |
+This program uses recursion and list comprehensions for three solutions.
+
+COP4020_Collatz
+| 🟡 JavaScript |
+This program finds collatz sequence length and factorials.
+
+⭐ COP4020_Sequences
+| 🟥 TypeScript |
+In TypeScript, this program finds triangle numbers, lexicographic permutations, and coin sums.
+
+⭐⭐ COP4020_PuzzleSolver
+| 🟡 JavaScript |
+This program uses JQuery to solve a puzzle with draggables or buttons.
+
+COP4020_FactoryPattern
+| 🟥 TypeScript |
+This program uses JS and TS to create a factory design pattern, JSON from input, and console output.
+
+COP4020_InheritData
+| 🔴 C++ |
+This program uses multiple inheritance within several classes.
+
+⭐⭐ COP4020_BinaryFiles
+| 🔴 C++ |
+This program uses inheritance, iterators, vectors, and lists to manipulate data to and from files.
+
+COP4020_Observer
+| 🔴 C++ |
+This program creates an observer design pattern and uses abstract classes.
+
+COP4020_Students
+| 🟢 C# |
+This program uses three student classes and their methods.
+
+COP4020_LINQ
+| 🟢 C# |
+This program uses LINQ and OOP principles within several classes.
+
+⭐ COP4020_Threads
+| 🟢 C# |
+This program uses LINQ and threads to filter lists and count numbers.
+
+🤝 ⭐ COP4600_ProcessScheduler
+| 🟧 Python |
+This program used ChatGPT to create three scheduling algorithms.
+
+🤝 ⭐⭐ COP4600_ConcurrentHashTable
+| ⚪️ C |
+This program uses locks and condition variables for threads to manipulate a hash table.
 
 </br>
 
