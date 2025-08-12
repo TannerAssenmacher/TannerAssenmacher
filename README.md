@@ -96,6 +96,10 @@ This program is a simple calculator as a desktop app.
 | 🟢 C# |
 This program is a connect four game vs AI or two players.
 
+CIS153_UserRegistration
+| 🟢 C# |
+This program creates a valid user and stores it in a list of all users.
+
 CIS153_CRUDCars
 | 🟢 C# |
 This program allows for records of cars to be created, updated, deleted, and read.
