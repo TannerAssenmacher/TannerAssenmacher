@@ -226,6 +226,7 @@ This program is a circuit that represents the game Simon Says.
 - COT 4210 - Discrete Structures 2
 - COP 4020 - Programming Languages
 - COP 4600 - Operating Systems
+- CNT 4714 - Enterprise Computing
 <br/>
 
 CDA3103_TMArch
@@ -451,6 +452,22 @@ This program used ChatGPT to create three scheduling algorithms.
 🤝 ⭐⭐ COP4600_ConcurrentHashTable
 | ⚪️ C |
 This program uses locks and condition variables for threads to manipulate a hash table.
+
+CNT4714_Nile
+| 🟠 Java |
+This program is a standalone GUI application that simulates an e-store.
+
+⭐⭐ CNT4714_BankSimulator
+| 🟠 Java |
+This program employs synchronized/cooperating multiple threads in Java using locks.
+
+⭐ CNT4714_SQLInterface
+| 🟠 Java |
+This program is a two-tier client-server application that uses MySQL and JDBC.
+
+⭐⭐⭐ CNT4714_DBMSWebApp
+| 🟠 Java |
+This program is a three-tier distributed web-based application using JDBC.
 
 </br>
 
